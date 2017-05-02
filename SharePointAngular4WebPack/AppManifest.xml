@@ -8,7 +8,7 @@
 >
   <Properties>
     <Title>SharePointAngular4WebPack</Title>
-    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <StartPage>~appWebUrl/app/Default.aspx?{StandardTokens}</StartPage>
   </Properties>
 
   <AppPrincipal>

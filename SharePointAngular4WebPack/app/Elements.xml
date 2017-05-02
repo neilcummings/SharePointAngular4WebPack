@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="app">
+    <File Path="app\images\angular.png" Url="app/images/angular.png" ReplaceContent="TRUE" />
+    <File Path="app\Default.aspx" Url="app/Default.aspx" ReplaceContent="TRUE" />
+    <File Path="app\assets\css\styles.css" Url="app/assets/css/styles.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

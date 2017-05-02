@@ -42,40 +42,25 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="Pages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{21b95244-ff0a-4fa4-88c3-96b6741c63ae}</SharePointProjectItemId>
+    <Content Include="app\css\styles.css" />
+    <Content Include="config\helpers.js" />
+    <Content Include="config\webpack.common.js" />
+    <Content Include="config\webpack.dev.js" />
+    <Content Include="Elements.xml" />
+    <Content Include="src\app\app.component.css" />
+    <Content Include="src\app\app.component.html" />
+    <Content Include="webpack.config.js" />
+    <None Include="app\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d57849e3-f084-41cb-a463-15c4e0b36e49}</SharePointProjectItemId>
     </None>
-    <Content Include="Pages\Elements.xml" />
-    <Content Include="Pages\Default.aspx" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Scripts\jquery-1.9.1.min.map" />
-    <None Include="Scripts\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{20bf97bb-4a22-4f24-876d-9cd735dc0cfc}</SharePointProjectItemId>
+    <Content Include="app\Elements.xml" />
+    <Content Include="app\images\angular.png" />
+    <Content Include="app\Default.aspx" />
+    <None Include="package.json" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bf281101-c12e-4483-a263-9c44bfe871ed}</SharePointProjectItemId>
     </None>
-    <Content Include="Scripts\Elements.xml" />
-    <Content Include="Scripts\App.js" />
-    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
-    <Content Include="Scripts\_references.js" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Content\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{2eb84bcf-f254-40a9-828f-eee83b571563}</SharePointProjectItemId>
-    </None>
-    <Content Include="Content\Elements.xml" />
-    <Content Include="Content\App.css" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Images\AppIcon.png">
-      <OpcRelationship>manifest-icon</OpcRelationship>
-    </Content>
-    <Content Include="Images\Elements.xml" />
-    <None Include="Images\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{392af2aa-5882-4f21-84e3-7055682f69ab}</SharePointProjectItemId>
-    </None>
+    <None Include="src\tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Package\Package.package">
@@ -95,6 +80,16 @@
     <AppManifestFile Include="AppManifest.xml">
       <SubType>Designer</SubType>
     </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app\app.component.ts" />
+    <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\polyfills.ts" />
+    <TypeScriptCompile Include="src\vendor.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
