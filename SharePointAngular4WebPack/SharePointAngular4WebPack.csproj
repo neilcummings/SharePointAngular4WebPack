@@ -42,7 +42,12 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app\css\styles.css" />
+    <Content Include="app\app.css" />
+    <Content Include="app\app.js" />
+    <Content Include="app\assets\angular.9db278d630f5fabd8e7ba16c2e329a3a.png" />
+    <Content Include="app\assets\css\styles.css" />
+    <Content Include="app\polyfills.js" />
+    <Content Include="app\vendor.js" />
     <Content Include="config\helpers.js" />
     <Content Include="config\webpack.common.js" />
     <Content Include="config\webpack.dev.js" />
@@ -50,6 +55,7 @@
     <Content Include="src\app\app.component.css" />
     <Content Include="src\app\app.component.html" />
     <Content Include="webpack.config.js" />
+    <None Include=".gitignore" />
     <None Include="app\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{d57849e3-f084-41cb-a463-15c4e0b36e49}</SharePointProjectItemId>
     </None>
@@ -81,9 +87,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="app\assets\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
