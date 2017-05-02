@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="ecbc49e7-1c2a-4798-b95b-33e0bed61b1c" 
+        solutionId="ecbc49e7-1c2a-4798-b95b-33e0bed61b1c" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SharePointAngular4WebPack"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="2691dbc8-f606-4b56-9009-ef458db46e3b" />
+  </features>
+</package>
