@@ -56,12 +56,16 @@
     <Content Include="src\app\app.component.html" />
     <Content Include="webpack.config.js" />
     <None Include=".gitignore" />
+    <None Include="app\app.css.map" />
+    <None Include="app\app.js.map" />
+    <None Include="app\polyfills.js.map" />
     <None Include="app\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{d57849e3-f084-41cb-a463-15c4e0b36e49}</SharePointProjectItemId>
     </None>
     <Content Include="app\Elements.xml" />
     <Content Include="app\images\angular.png" />
     <Content Include="app\Default.aspx" />
+    <None Include="app\vendor.js.map" />
     <None Include="package.json" />
     <None Include="SharePointProjectItem.spdata">
       <SharePointProjectItemId>{bf281101-c12e-4483-a263-9c44bfe871ed}</SharePointProjectItemId>
